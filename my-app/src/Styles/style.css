@@ -1,0 +1,188 @@
+.mainContainer{
+    margin-top: 15px;
+}
+
+/* Oanda currency converter */
+.slogan-container{
+    color: #71757a;
+    margin-bottom: 5px;
+}
+.slogan{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Japanese Yen to US */
+.content-container{
+    align-items: center;
+}
+.content{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 48px;
+}
+
+/* OnlineTrading */
+.trading-button{
+    flex: 1;
+    min-height: 1px;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    line-height: 20px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+    flex-basis: 25%; 
+}
+.button1:hover{
+    background-color: #3358ff !important;
+    border-color: #3358ff !important;
+    box-shadow: 0 10px 30px #3358ff4d !important;
+}
+
+
+/* Main Box */
+.box{
+    margin-top: 15px;
+    display: block;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-shadow: 0 10px 20px 0 #b3bbc673;
+    border-radius: 15px;
+}
+
+#ExchangeIcon{
+    color: #168B48;
+    cursor: pointer;
+}
+#QuestionIcon{
+    color: #333;
+    cursor: pointer;
+}
+#QuestionIcon:hover{
+    color: #3358ff;
+}
+
+#textField34{
+    padding: 20px !important;
+}
+
+/* CurrencySelect */
+.button{
+    font-size: 16px !important;
+    color: #333333 !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.75 !important;
+    text-transform: none !important;
+    border-radius: 100px !important;
+}
+.chosenButton{
+    font-size: 16px !important;
+    background-color: #e6ecff !important;
+    color: #ffffff !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.75 !important;
+    text-transform: none !important;
+    border-radius: 100px !important;
+}
+.button:hover{
+    color: #004AC3 !important;
+}
+/* DateParagraph */
+p{
+    display: inline;
+    text-align: start;
+    padding-right: 16px ;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+}
+/* Container for Date and ... */
+.secondContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.thirdContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.dataLink{
+    display: inline-block;
+    padding-bottom: 7.5px;
+    padding-right: 30px;
+    padding-top: 7.5px;
+    color: #3d58a4;
+}
+.dataLink:hover{
+    color: #3358ff;
+}
+.print_link{
+    color: #3d58a4;
+    padding-bottom: 7.5px;
+    padding-left: 30px;
+    padding-top: 7.5px;
+}
+.print_link:hover{
+    color: #3358ff;
+}
+.material-icons{
+    color: #4b4e52;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.material-icons:hover{
+    color: #333;;
+}
+.PrintSection{
+    align-items: center;
+    margin: 22.5px 0;
+    letter-spacing: .25px;
+}
+#description{
+    color: #828282;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.CurrencyRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    padding: 6px 8px;
+
+}
+.country-select-demo{
+    display: inline-flex !important;
+    width: 100% !important;
+}
